@@ -44,7 +44,7 @@ const AddDetails = () => {
         const DataResponse = await axios.get(
           "https://localhost:8000/items"
         );
-        // Handle data retrieval as needed
+        
       } catch (error) {
         console.error("Error fetching states and countries:", error.message);
       }
